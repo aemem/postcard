@@ -1,3 +1,14 @@
+
+La postal es un div con clase "postcard" que contiene un header, un body y un footer. Tiene margin auto para centrarla horizontalmente y un margin top para centrarla verticalmente.
+
+El header tiene display flex para que muestre los elementos uno al lado de otro. Contiene 2 elementos: un h1 con el título de la postal y el logo de 4Geeks. Para que el logo se quede a la derecha hice el h1 más ancho de lo que el texto ocupa, así "empuja" el logo hacia la derecha.
+
+Debajo está el body que está dividido en dos partes: body-left y body-right. Tiene display flex para que las dos partes estén una al lado de la otra.
+Body-left tiene dos párafos con el contenido de la postal. Body-right tiene tres inputs para poner el nombre, email y un comentario de la persona que la envía. Los inputs tienen un placeholder que idica qué poner en cada uno. 
+
+El footer contiene un botón de enviar tiene un text-align center para que esté centrado. El botón está hecho con una etiqueta button y tiene un padding de 5px para separa el texto de los bordes.
+
+
 # ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
